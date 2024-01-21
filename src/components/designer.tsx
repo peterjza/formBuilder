@@ -31,8 +31,6 @@ export default function Designer() {
 		},
 	})
 
-	console.log(elements)
-
 	useDndMonitor({
 		onDragEnd: (event: DragEndEvent) => {
 			const { active, over } = event
